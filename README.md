@@ -24,7 +24,7 @@ This application stores employee data which is visibile and manipulatable throug
 to be used by a store, team or company owner that wants to store data about their team.
 
 Please click the link below to view a walkthrough video for more details: <br />
-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/507e72b9-d042-497a-y6c3-789625c029c0
+https://watch.screencastify.com/v/sSHrIOqYmCESWMSITGR0
 
 ## Contributors 
 Steven Eiselt - Developer and Creator!
