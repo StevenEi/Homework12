@@ -210,15 +210,14 @@ function employeeUpdateFunc() {
                         choices: roleAssignArray
                     },
                 ]).then((addAnswers) => {
-                    console.log("The employee's role has been updated")
-                    db.query("UPDATE `employee` (role_id) VALUES (?)",
-                        [addAnswers.roleAssign],
-                        function () {
-                            launchQuestions()
-                        })
+                    console.log("The employee's role has been updated", addAnswers)
+                    db.query("UPDATE employee SET role_id = ? WHERE id = ?", [addAnswers.roleAssign, addAnswers.selectEmployee],
+                    launchQuestions()
+                    )
                 })
             })
         })
     })
 }
+
 launchQuestions()
